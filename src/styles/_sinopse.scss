@@ -1,0 +1,24 @@
+.sinopse{
+    background-color: #03040F;
+    padding-top: 48px;
+
+    &__container {
+        width: 1200px;  //delimitando o tamanho do container
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    &__list{
+        display: flex;    
+        // colocou uma li do lado da outra e centralizou horizintalmente
+        align-items: center;
+    }
+
+    &__item{
+        padding: 24px;
+
+        &__img{
+            width: 520px
+        }
+    }
+}

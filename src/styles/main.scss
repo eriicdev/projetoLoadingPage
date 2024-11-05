@@ -1,0 +1,32 @@
+@use '_header.scss';
+@use '_inicio.scss';
+@use '_sinopse.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.list-title{
+    color: #A91212;
+    font-size: 64px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 5px;
+}
+
+.text-item{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+span{
+    color: #175D62;
+}
+
+
