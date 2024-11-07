@@ -1,0 +1,22 @@
+.faq{
+    background-color: blue;
+    color: #FFF;
+
+    
+    .containerh2{
+        text-align: center;
+    }
+
+    .containerUL{
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+
+        &__questions{
+    
+            &__item{
+    
+            }
+        }
+    }
+}
