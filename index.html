@@ -10,21 +10,6 @@
     <link rel="stylesheet" href="dist/styles/main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <ul class="header__container__list">
-                <li class="header__container__list__item">
-                    <a href="#">Início</a>
-                </li>
-                <li class="header__container__list__item">
-                    <a href="#">Sinopse</a>
-                </li>
-                <li class="header__container__list__item">
-                    <a href="#">Perguntas frequentes</a>
-                </li>
-            </ul>
-        </div>
-    </header>
     <div class="container__inicio">
         <section class="inicio">
             <img class="inicio__image" src="dist/images/imagem-tema-filme.jpg" alt="">
@@ -38,33 +23,55 @@
                 </li>
                 <li class="sinopse__item">
                     <h2 class="list-title">SINOPSE</h2>
-                    <p class="text-item"><span>Cypher</span> embarca em uma viagem espacial ao lado do filho <span>Kitai</span>, mas uma chuva de asteroides força a dupla a pousar na Terra, que há mil anos não é habitada por humanos. Cypher é gravemente ferido, e Kitai precisa enfrentar grandes perigos na busca do sinalizador, o único objeto que pode ajudá-los a <span>voltar para casa.</span></p>
+                    <p class="text-item"><span class="sinopse-span">Cypher</span> embarca em uma viagem espacial ao lado do filho <span class="sinopse-span">Kitai</span>, mas uma chuva de asteroides força a dupla a pousar na Terra, que há mil anos não é habitada por humanos. Cypher é gravemente ferido, e Kitai precisa enfrentar grandes perigos na busca do sinalizador, o único objeto que pode ajudá-los a <span class="sinopse-span">voltar para casa.</span></p>
                 </li>
             </ul>
         </div>
     </section>
     <div class="faq">
-            <h2>Perguntas frequentes</h2>
+            <h2>Perguntas <span>frequentes</span></h2>
             <section class="faq__section">  
                 <ul class="faq__section__questions">
                     <li class="faq__section__questions__item">
-                        <div class="faq__section__questions__item__pergunta">
-                        Pergunta
+                        <div class="faq__section__questions__item__pergunta" data-faq-question>
+                            Onde foi gravado Depois da Terra?
                         </div>
                         <div class="faq__section__questions__item__resposta">
-                            Resposta
+                            Grande parte das filmagens aconteceu em Costa Rica; Humboldt County, na Califórnia e Aston, Pensilvânia.
                         </div>
                     </li>
-                    <li class="faq__section__questions__item">
-                        <div class="faq__section__questions__item__pergunta">
-                        Pergunta
+                    <li class="faq__section__questions__item ">
+                        <div class="faq__section__questions__item__pergunta" data-faq-question>
+                            Vai ter Depois da Terra 2?
                         </div>
                         <div class="faq__section__questions__item__resposta">
-                            Resposta
+                            Parte 2 também está na programação.
+                        </div>
+                    </li>
+                    <li class="faq__section__questions__item ">
+                        <div class="faq__section__questions__item__pergunta" data-faq-question>
+                            Onde assistir o filme Depois da Terra?
+                        </div>
+                        <div class="faq__section__questions__item__resposta">
+                            Assista Depois da Terra (HBO) | Max.
+                        </div>
+                    </li>
+                    <li class="faq__section__questions__item ">
+                        <div class="faq__section__questions__item__pergunta" data-faq-question>
+                            Qual a mensagem do filme Depois da Terra?
+                        </div>
+                        <div class="faq__section__questions__item__resposta">
+                            A premissa é simples: mostrar que em meio a adversidades reais é possível atingir metas que não foram cumpridas em situações simuladas.
                         </div>
                     </li>
                 </ul>
             </section>
     </div>
+    <footer  class="footer">
+        <div>
+            <p>Desenvolvido por Erick costa, aluno da Ebac - 2024</p>
+        </div>
+    </footer>
+    <script src="src/scripts/main.js"></script>
 </body>
 </html>
